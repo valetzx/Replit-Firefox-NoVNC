@@ -1,0 +1,61 @@
+{ pkgs }: {
+    deps = [
+      pkgs.wget
+      pkgs.qemu_kvm
+      pkgs.killall
+      pkgs.python39Full
+      pkgs.telnet
+      pkgs.firefox-unwrapped
+      pkgs.xlibs.xinit
+      pkgs.gnome.gdm
+      # pkgs.gnome.libgnome
+      pkgs.gnome.gnome-shell
+      pkgs.lxrandr
+      pkgs.lxpanel
+      pkgs.lxsession
+      pkgs.lxterminal
+      pkgs.xfce.xfwm4
+      pkgs.xfce.xfdesktop
+      pkgs.xfce.xfce4-panel
+      pkgs.xterm
+      pkgs.chromium
+      pkgs.neofetch
+      pkgs.emacs
+      pkgs.nano
+      pkgs.killall
+      pkgs.bashInteractive
+      pkgs.zsh
+      pkgs.flex
+      pkgs.bison
+      pkgs.w3m
+      pkgs.elinks
+      pkgs.lynx
+      pkgs.links
+      pkgs.wine
+      pkgs.xfce.xfconf
+      pkgs.xfce.thunar
+      pkgs.openbox
+      pkgs.libreoffice
+      pkgs.hunspell
+      pkgs.xorg.xcalc
+      pkgs.pantheon.elementary-icon-theme
+      pkgs.whitesur-icon-theme
+      pkgs.elementary-xfce-icon-theme
+      pkgs.hicolor-icon-theme
+      pkgs.gnome.adwaita-icon-theme
+      # No more mistypes!
+      pkgs.thefuck
+      pkgs.fff
+      pkgs.msbuild
+      pkgs.linux
+      pkgs.inspircd.bin
+      pkgs.inspircd.doc
+      pkgs.inspircd.lib
+      pkgs.inspircd.man
+      pkgs.inspircd.out
+      pkgs.webtorrent_desktop
+      pkgs.tdesktop
+      pkgs.xlibs.xmessage
+      pkgs.ubuntu_font_family
+    ];
+}
