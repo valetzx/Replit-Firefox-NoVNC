@@ -12,7 +12,7 @@ sleep 10
 chmod u+x ~/v2ray/sbin/v2ray
 chmod u+x ~/nginx/sbin/nginx
 
-~/v2ray/sbin/v2ray -config .v2ray/etc/config.json >/dev/null 2>&1 & echo done v2
+~/v2ray/sbin/v2ray >/dev/null 2>&1 & echo done v2ray
 ~/nginx/sbin/nginx -g 'daemon off;' &  echo done nginx
 
 # watch -n 0 "fluxbox amd64" 

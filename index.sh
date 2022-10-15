@@ -4,7 +4,6 @@ export "NIXPKGS_ALLOW_UNFREE=1"
 
 git clone --single-branch --depth 1 https://github.com/novnc/noVNC /tmp/vnc
 
-
 Xvnc -listen localhost:5900 -localhost=1 -SecurityTypes=none -from 127.0.0.1 -noreset &
 
 $( fluxbox ; fluxbox ; fluxbox ; fluxbox ; fluxbox ; kill 1 ) &
