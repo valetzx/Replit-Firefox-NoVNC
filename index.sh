@@ -9,3 +9,6 @@ Xvnc -listen localhost:5900 -localhost=1 -SecurityTypes=none -from 127.0.0.1 -no
 $( fluxbox ; fluxbox ; fluxbox ; fluxbox ; fluxbox ; kill 1 ) &
 $( sleep 1 ; firefox ) &
 $( sleep 5 ; /tmp/vnc/utils/novnc_proxy --listen 127.0.0.1:6080 )
+
+# 设置VNC登录密码，如果需要设置密码请替换上一行
+# $( sleep 5 ; /tmp/vnc/utils/novnc_proxy --listen 127.0.0.1:6080 --heartbeat 30 --web-auth --auth-plugin BasicHTTPAuth --auth-source '用户名:密码' )
