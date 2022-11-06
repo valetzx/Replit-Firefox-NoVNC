@@ -1,0 +1,12 @@
+alist.pighog.repl.co
+alist.piged.repl.co
+firefox.pigp.repl.co
+alist.learnonly.xyz
+blog.learnonly.xyz
+docs.learnonly.xyz
+uptime.pighog.repl.co
+cdn.pighog.repl.co
+hexo.pighog.repl.co
+hexo.piged.repl.co
+cdn.pighog.repl.co
+getoken.pighog.repl.co
