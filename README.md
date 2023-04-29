@@ -1,5 +1,7 @@
 # NEW NoVNC Firefox
 
+本项目可以让你在web中访问replit中的firefox浏览器
+
 把这个 https://github.com/valetzx/firefoxonreplit 项目修改了一下，原项目不能保活（虽然已经没必要了，codespace保活滥用会封号）。
 
 这个仓库的内容可以使用频繁访问域名的方式保活 replit 这个小机器，但是部分应用的缓存不会在关闭后保存，比如firefox的cookies等。
